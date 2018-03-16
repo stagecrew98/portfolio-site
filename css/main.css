@@ -1,0 +1,288 @@
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width:385px;
+  margin: 0 auto;
+  float: left;
+}
+
+.fourth-width {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
+}
+
+/***Head***/
+
+
+
+header {
+    height: 725px;
+    background: url('../img/arrow 2.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 950px 558px;
+}
+
+nav {
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+#name {
+  text-indent: 20%;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-size: 25px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+}
+
+header h2 span {
+  text-decoration-line: line-through;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-size: 25px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+}
+
+header h3 span {
+  color: #FFFFFF;
+}
+
+#list {
+   padding-top: 63%;
+}
+
+#plus {
+  font-size: 15px;
+  text-align: right;
+}
+
+/***** About *****/
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px
+}
+
+#about {
+  font-family: 'Josefin Sans', sans-serif;
+  height: 700px;
+  background: url('../img/famous.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 950px 558px;
+  margin-left: 25px;
+}
+
+#famous {
+  background-size: 750px 500px;
+}
+
+#purplebox {
+  width: 500px;
+  height: 300px;
+  color: white;
+  background-color: #7E4FFF;
+  border: 8px solid #ffffff;
+  float: right;
+  padding: 40px 25px 40px;
+  line-height: 3;
+  letter-spacing: 1px;
+  margin-top: 20%;
+}
+
+/****Skills*****/
+
+#skills{
+  margin-top: 40px;
+}
+
+#four {
+  width: 275px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: #FFEA33;
+  border: 8px solid #ffffff;
+  margin: 40px 10px 40px;
+  padding: 15px;
+  position: absolute;
+  left: 100px;
+  top: 1500px;
+  z-index: 1;
+}
+
+#html {
+  width: 275px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: #FA1943;
+  border: 8px solid #ffffff;
+  margin: 40px 10px 40px;
+  padding: 15px;
+  position: absolute;
+  left: 350px;
+  top: 1630px;
+  z-index: 2;
+}
+
+#css {
+  width: 275px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: #348363;
+  border: 8px solid #ffffff;
+  margin: 40px 10px 40px;
+  padding: 15px;
+  position: absolute;
+  left: 600px;
+  top: 1500px;
+  z-index: 2;
+}
+
+#details {
+  width: 275px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: #7E4FFF;
+  border: 8px solid #ffffff;
+  margin: 40px 10px 40px;
+  padding: 15px;
+  position: absolute;
+  left: 850px;
+  top: 1630px;
+  z-index: 2;
+}
+#trivia {
+  font-size: 15px;
+  text-align: right;
+  margin-top: 500px;
+}
+
+/***** Projects *****/
+
+#projects {
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 25px;
+  padding: 5px;
+
+}
+
+#first {
+  margin-left: 25px;
+}
+
+#second {
+
+  margin-left: 15px;
+
+}
+
+#rp {
+  border: 2px solid #000000;
+  box-sizing: content-box;
+  margin-left: 15px;
+  margin-right: 66px;
+}
+
+#third {
+}
+
+/***** Contact *****/
+
+
+
+#contact {
+  margin-top: 300px;
+  height: 1100px;
+  background: url('../img/hangout.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 462px 818px;
+}
+
+#hangout {
+  margin-left: 25px;
+}
+
+#info {
+  margin-left: 550px;
+  margin-top: 150px;
+}
+
+#email {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+
+a {
+  color: #000000;
+}
+
+#instagram {
+  margin-left: 75px;
+}
+
+#linkedin {
+  margin-left: 150px;
+}
+
+#pinterest {
+    margin-left: 225px;
+}
+
+#twitter {
+    margin-left: 300px;
+}
+
+#blog {
+  margin-left: 375px;
+}
+
+#smoke {
+  font-size: 15px;
+  text-align: right;
+  margin-top: 25px;
+}
